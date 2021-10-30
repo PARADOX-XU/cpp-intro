@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-	int weight; // in kilograms	float height; // in meters
+	int weight; 
+	float height;
 
 	cout<<"Please enter weight in kilograms: ";
 	cin>>weight;
