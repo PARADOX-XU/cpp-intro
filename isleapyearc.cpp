@@ -9,7 +9,6 @@ int main(int argc, char* argv[]){
 	for(int i=0; i<4; i++){
 		int temp = (int) argv[1][i];
 		year += (temp - 48) * (pow(10,3-i)); 
-		//cout<<temp - 48<<endl;
 	}
 
 	if (!(year % 400) || year % 4 == 0 && year % 100 != 0)
