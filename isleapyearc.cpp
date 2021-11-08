@@ -6,7 +6,7 @@ bool isleapyear(int inyear){
 			else
 				return false;}
 		else 
-		return true;
+		return true;}
 	else 
 	return false;
 		
