@@ -4,8 +4,7 @@ bool isleapyear(int inyear){
 			if (inyear % 400 == 0)
 				return true;
 			else
-				return false;
-		}
+				return false;}
 		else 
 		return true;
 	else 
